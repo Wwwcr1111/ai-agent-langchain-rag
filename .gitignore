@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# logs and temp
+*.log
+*.tmp
+tmp_uploads/
+.playwright-cli/
+*.swp
+*.bak
+
+# FAISS indexes
+faiss_index/
+*.faiss
+*.npy
+*.jsonl
+*.pkl
+
+# LangChain & LLM artifacts
+lc_cache/
+.output_cache/
+docs_cache/
+memory_index/
+
+# Frontend build
+.next/
+out/
+node_modules/
+*.tsbuildinfo
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+gcp-service-account.json
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Other custom folders
+pages/
+crawled_data.csv
+data/raw_docs/
+data/data/
+
+# Local Python caches and test output
+htmlcov/
+.coverage
+coverage.xml

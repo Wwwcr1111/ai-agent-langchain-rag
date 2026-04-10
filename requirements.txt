@@ -1,0 +1,49 @@
+# Core LLM + LangChain ecosystem
+langchain>=0.1.14
+langchain-core>=0.1.34
+langchain-community>=0.0.30
+langchain-cli>=0.0.17
+langchain-openai>=0.1.6
+langgraph==0.3.23
+
+# LLMs
+openai>=1.14.2
+transformers>=4.38.2      # For HuggingFace pipeline LLMs
+sentence-transformers>=2.6.1
+accelerate>=0.27.2        # Required for some HF models
+
+# Document parsing
+unstructured[all-docs]>=0.11.4
+pdfminer.six>=20221105
+python-docx>=1.1.0
+
+# Vector DB
+faiss-cpu>=1.7.4
+pandas>=2.2.2
+
+# Crawling and web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+tldextract>=5.1.2
+
+# Evaluation, testing
+pytest>=8.1.1
+tqdm>=4.66.2
+python-dotenv>=1.0.0
+
+# Data validation and schema typing
+pydantic>=2.6.4
+
+# File IO and config
+PyYAML>=6.0.1
+
+# Optional (for streaming APIs or local inference)
+httpx>=0.27.0
+operators>=1.0.1
+
+# Logging (builtin, but optionally enhance with better trace tools)
+loguru>=0.7.2
+
+# API server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0

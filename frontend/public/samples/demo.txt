@@ -1,0 +1,19 @@
+Meeting Notes – April 5, 2025
+
+Attendees:
+- Sarah Johnson (Product)
+- David Kim (Engineering)
+- Priya Mehta (Customer Success)
+
+Summary:
+- Discussed Q2 roadmap with focus on user retention.
+- Sarah presented feedback from recent churned users: onboarding confusion, lack of integrations.
+- Engineering will prioritize Slack and Google Drive integrations for next sprint.
+- Priya suggested adding in-app tips to help new users through activation milestones.
+- KPI goal: reduce 30-day churn by 20% by end of June.
+
+Action Items:
+- Sarah to finalize user onboarding flow by April 12.
+- David to scope Slack integration by April 10.
+- Priya to provide example tooltips for onboarding steps.
+- Next check-in: Tuesday, April 16.

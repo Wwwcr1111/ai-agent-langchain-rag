@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional but nice: theme-aware base styling */
+html {
+  @apply bg-white text-black;
+}
+html.dark {
+  @apply bg-gray-900 text-white;
+}
+
+/* Optional transitions for smoother theme toggle */
+body {
+  @apply transition-colors duration-300 ease-in-out;
+}

@@ -1,0 +1,12 @@
+/* /frontend/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-neutral-900 antialiased;
+}
+
+pre {
+  @apply bg-neutral-100 p-4 rounded text-sm font-mono overflow-x-auto;
+}

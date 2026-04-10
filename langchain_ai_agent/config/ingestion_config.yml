@@ -1,0 +1,11 @@
+chunk_size: 500
+chunk_overlap: 50
+supported_extensions:
+  - .pdf
+  - .docx
+  - .txt
+  - .md
+  - .json
+  - .jsonl
+  - .eml
+  - .html
